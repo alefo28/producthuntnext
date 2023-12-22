@@ -9,11 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/babel-plugin": "^11.11.0",
+    "@emotion/babel-preset-css-prop": "^11.11.0",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "babel-plugin-emotion": "^11.0.0",
+    "date-fns": "^2.30.0",
+    "firebase": "^10.7.1",
+    "firebase-admin": "^12.0.0",
     "next": "14.0.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-firebase-file-uploader": "^2.4.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.6",
     "eslint": "8.55.0",
     "eslint-config-next": "14.0.3"
   }
